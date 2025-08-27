@@ -12,3 +12,7 @@ Though storing in Array takes O(1) time, searching in it takes at least O(log n)
 
 So now we are looking for a data structure that can store the data and search in it in constant time, i.e. in O(1) time.
 This is how Hashing data structure came into play. With the introduction of the Hash data structure, it is now possible to easily store data in constant time and retrieve them in constant time as well.
+
+What is Collision?
+The hashing process generates a small number for a big key, so there is a possibility that two keys could produce the same value.
+The situation where the newly inserted key maps to an already occupied, and it must be handled using some collision handling technology.
