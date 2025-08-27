@@ -1,0 +1,14 @@
+Hashing refers to the process of generating a fixed-size output from an input of variable size using the mathematical formulas 
+known as hash functions. This technique determines an index or location for the storage of an item in a data structure.
+
+Need for Hash data structure
+The amount of data on the internet is growing exponentially every day, 
+making it difficult to store it all effectively.
+In day-to-day programming, this amount of data might not be that big, but still, it needs to be stored, accessed, and processed easily and efficiently. 
+A very common data structure that is used for such a purpose is the Array data structure.
+
+Now the question arises if Array was already there, what was the need for a new data structure! The answer to this is in the word “efficiency“.
+Though storing in Array takes O(1) time, searching in it takes at least O(log n) time. This time appears to be small, but for a large data set, it can cause a lot of problems and this, in turn, makes the Array data structure inefficient.
+
+So now we are looking for a data structure that can store the data and search in it in constant time, i.e. in O(1) time.
+This is how Hashing data structure came into play. With the introduction of the Hash data structure, it is now possible to easily store data in constant time and retrieve them in constant time as well.
